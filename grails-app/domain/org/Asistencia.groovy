@@ -11,15 +11,15 @@ class Asistencia {
     
     static constraints = {
     }
-        static mappings = {
-      table 'ASISTENCIA'
-      fecha column: 'FECHA'
-      horaEntrada column: 'HORA_ENTRADA'
-      horaSalida column: 'HORA_SALIDA'
-      horas column: 'HORAS'
-      actividad column: 'ACTIVIDAD'
+    static mappings = {
+        table 'ASISTENCIA'
+        fecha column: 'FECHA'
+        horaEntrada column: 'HORA_ENTRADA'
+        horaSalida column: 'HORA_SALIDA'
+        horas column: 'HORAS'
+        actividad column: 'ACTIVIDAD'
 
-      id (generator:'sequence', params:[sequence:'SEQ_ASISITENCIA'])
+        id (generator:'sequence', params:[sequence:'SEQ_ASISITENCIA'])
     }
         
 }

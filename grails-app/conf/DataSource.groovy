@@ -15,7 +15,7 @@ environments {
         dataSource {
             //dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             driverClassName = "oracle.jdbc.OracleDriver"
-            dbCreate = "update"
+            dbCreate = "create"
             url = "jdbc:oracle:thin:@localhost:1521:xe"
             dialect = org.hibernate.dialect.Oracle10gDialect
             pooled = true
